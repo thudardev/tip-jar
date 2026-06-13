@@ -3,8 +3,7 @@
 A minimal end-to-end decentralised tipping application built on Ethereum (Sepolia testnet).
 
 ## Live Demo
-- Contract: `[DEPLOYED_ADDRESS]` — [View on Etherscan](https://sepolia.etherscan.io/address/[DEPLOYED_ADDRESS])
-- Frontend: `[VERCEL_URL]`
+- Contract: `[DEPLOYED_ADDRESS]` — [View on Etherscan](https://sepolia.etherscan.io/address/[0x1558264A38e9089790382E6cc467c6c566136D0e])
 
 ---
 
@@ -109,7 +108,7 @@ Every tip submission goes through four states:
 
 ### 1. Clone and install
 ```bash
-git clone [REPO_URL]
+git clone https://github.com/thudardev/tip-jar
 cd tipjar
 
 # Install all dependencies
@@ -175,20 +174,6 @@ npm run dev
 
 ---
 
-## Next Steps for Productionization
-
-1. **Websockets instead of polling** — Replace 10-second polling with WebSocket subscriptions for real-time tip updates
-2. **Rate limiting** — Add rate limiting to the API to prevent abuse
-3. **Message validation** — Add max length validation on tip messages both on-chain and off-chain
-4. **Multi-network support** — Abstract the chain config to support mainnet, Base, Polygon
-5. **Admin dashboard** — Build an owner dashboard showing total tips, withdrawal history
-6. **ENS resolution** — Resolve sender addresses to ENS names in the frontend
-7. **IPFS for messages** — Store long messages on IPFS, only store the hash on-chain to save gas
-8. **EIP-2612 gasless tips** — Allow users to tip without holding ETH for gas via permit signatures
-9. **Monitoring** — Add Sentry for error tracking, Prometheus for backend metrics
-10. **CI/CD** — GitHub Actions for automated testing and deployment on every PR
-
----
 
 ## Tech Stack
 - **Smart Contract**: Solidity ^0.8.20, Hardhat, OpenZeppelin
