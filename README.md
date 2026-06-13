@@ -3,7 +3,7 @@
 A minimal end-to-end decentralised tipping application built on Ethereum (Sepolia testnet).
 
 ## Live Demo
-- Contract: `[DEPLOYED_ADDRESS]` — [View on Etherscan](https://sepolia.etherscan.io/address/[0x1558264A38e9089790382E6cc467c6c566136D0e])
+- Contract: `[DEPLOYED_ADDRESS]` — [View on Etherscan](https://sepolia.etherscan.io/address/0x1558264A38e9089790382E6cc467c6c566136D0e)
 
 ---
 
